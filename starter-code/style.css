@@ -1,0 +1,290 @@
+:root {
+    /* Colors */
+    --cyan-600: #4D96A9;
+    --cyan-300: #8FE3F9;
+    --purple-600: #855FB1;
+    --purple-300: #D9B8FF;
+    --slate-900: #28283D;
+    --slate-600: #87879D;
+    --slate-300: #D1D1DF;
+    --white: #FAFAFA;
+         
+    /* Typography */
+    --tp1-font-size: 3rem;
+    --tp1-line-height: 110%;
+    --tp1-letter-spacing: 0rem;
+
+    --tp2-font-size: 2.5rem;
+    --tp2-line-height: 110%;
+    --tp2-letter-spacing: 0rem;
+
+    --tp3-font-size: 1rem;
+    --tp3-line-height: 110%;
+    --tp3-letter-spacing: .25rem;
+
+    --tp4-font-size: 1.125rem;
+    --tp4-line-height: 140%;
+    --tp4-letter-spacing: 0rem;
+
+    --tp5-font-size: 1rem;
+    --tp5-line-height: 150%;
+    --tp5-letter-spacing: 0rem;
+}
+
+/* General Styling */
+
+* {
+    font-family: 'Red Hat Display';
+}
+
+.tp1 {
+    font-size: var(--tp1-font-size);
+    line-height: var(--tp1-line-height);
+    letter-spacing: var(--tp1-letter-spacing);
+}
+
+.tp2 {
+    font-size: var(--tp2-font-size);
+    line-height: var(--tp2-line-height);
+    letter-spacing: var(--tp2-letter-spacing);
+}
+
+.tp3 {
+    font-size: var(--tp3-font-size);
+    line-height: var(--tp3-line-height);
+    letter-spacing: var(--tp3-letter-spacing);
+}
+
+.tp4 {
+    font-size: var(--tp4-font-size);
+    line-height: var(--tp4-line-height);
+    letter-spacing: var(--tp4-letter-spacing);
+}
+
+.tp5 {
+    font-size: var(--tp5-font-size);
+    line-height: var(--tp5-line-height);
+    letter-spacing: var(--tp5-letter-spacing);
+}
+
+.slate-900 {
+    color: var(--slate-900);
+}
+
+.slate-600 {
+    color: var(--slate-600);
+}
+
+.cyan-600 {
+    color: var(--cyan-600)
+}
+
+.cyan-300 {
+    color: var(--cyan-300);
+}
+
+body {
+    margin: 0rem;
+    padding: none;
+}
+
+/* Nav */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 0rem;
+    width: 23.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hero */
+.hero-container {
+    width: 23.5rem;
+    height: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0rem;
+    padding-bottom: 0rem;
+}
+
+.hero-img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    margin-top: 4rem;
+}
+
+.text-content {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-description {
+    text-align: center;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    font-weight: 500;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
+.blue-btn {
+    background-color: var(--cyan-600);
+    color: var(--white);
+    font-weight: 800;
+    width: 12rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+
+.purple-btn {
+    background-color: var(--purple-600);
+    color: var(--white);
+    font-weight: 800;
+    width: 10rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-bottom: 0rem;
+    padding-bottom: 0rem;
+}
+
+/* Main Content */
+.circle-container-1 {
+    margin-top: -2rem;
+}
+.vl {
+    width: 1px;
+    border-left: 1px solid var(--slate-300);
+    height: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.circle {
+    width: 3.5rem;
+    height: 3.5rem;
+    border: var(--slate-300) solid 1px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+    z-index: 100;
+    background-color: var(--white);
+}
+
+.number {
+    font-weight: 800;
+    text-align: center;
+    z-index: 100;
+}
+
+.img-collage {
+    display: grid;
+    grid-template-columns: 9.2rem 9.2rem;
+    grid-template-rows: 9rem 9rem;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.collage {
+    border-radius: .825rem;
+}
+
+.text-content-2 {
+    margin-top: 4rem;
+}
+
+.blue-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 0rem;
+}
+
+.smarter-meetings {
+    width: 23rem;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.send-messages {
+    width: 19.4rem;
+    height: 7.5rem;
+    text-align: center;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4rem;
+}
+
+/* Footer */
+.footer-container {
+    width: 100%;
+    height: 23.375rem;
+    padding-top: 4rem;
+    margin-top: -6rem;
+    background-image: url(./assets/mobile/image-footer.jpg);
+    background-position: center top;
+    background-size: cover;
+    z-index: -1; 
+}
+
+.blue-background {
+    background-color: var(--cyan-600);
+    opacity: 80%;
+}
+
+.experience-title {
+    text-align: center;
+    color: var(--white);
+    font-weight: 800;
+}
+
+.stay-connected {
+    color: var(--white);
+    font-weight: 500;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.purple-download {
+    background-color: var(--purple-600);
+    color: var(--white);
+    font-weight: 800;
+    width: 12rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 1.5rem;
+    padding-bottom: 0rem; 
+}
+
+.purple-v {
+    color: var(--purple-300);
+}
