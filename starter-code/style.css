@@ -287,6 +287,9 @@ h1 {
   }
 
 .experience-title {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     color: var(--white);
     font-weight: 800;
@@ -294,10 +297,11 @@ h1 {
 
 .stay-connected {
     color: var(--white);
+    width: 20rem;
     font-weight: 500;
     text-align: center;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .purple-download {
@@ -433,14 +437,12 @@ h1 {
     }
 
     .experience-title {
-        width: auto;
+        width: 28rem;
         text-align: left;
-        padding-left: 10rem;
     }
 
     .stay-connected {
         width: 22rem;
         text-align: left;
     }
-
 }
